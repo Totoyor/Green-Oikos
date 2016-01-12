@@ -1,0 +1,917 @@
+body {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color:#FFFFFF;
+}
+
+
+#conteneur {
+	width: 1020px;
+	background-color: #999999;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+/*********************HEADER**************************************/
+
+#logo {
+	width: 155px;
+	height: 140px;
+	float: left;
+	background-image: url(../Images/fondlogo.png);
+}
+
+#logo img {
+	height:120px;
+	width:120px;
+	margin-top:7px;
+	margin-left:35px;}
+			
+
+#g-o {
+	width: 865px;
+	height: 109px;
+	float: left;
+	background-image:url(../Images/fondg-o.jpg);
+}
+
+#g-o #h1 {
+	margin-top: 20px;
+	margin-bottom: -30px;
+	margin-left: 30px;
+	color: #FFFFFF;
+	font-size: 33px;
+	letter-spacing: 1px;
+	padding: 0px;
+	text-align: start;
+}
+
+#copy {
+	color:#FFFFFF;
+}
+	
+#g-o #h2 {
+	color: #293c32;
+	font-size: 20px;
+	margin-left: 33px;
+	font-style:italic;
+	margin-top:20px;
+	font-weight:normal;
+}
+
+/**************************MENUS*********************************/
+#menus {
+	height: 37px;
+	background-image: url(../Images/menu.jpg);
+	float: left;
+	color: #FFFFFF;
+}
+
+#nav {
+	height:21px;
+	text-align: center;
+	width: 865px;
+	padding-top: 7px;
+	padding-bottom:3px;
+	float: left;
+	background-image:url(../Images/menu.jpg);
+}
+
+
+#nav a {
+	font-size: 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+#nav a:hover {
+	border-bottom: 6px #31ab6a solid;
+	padding-bottom:1px;
+}
+
+#nav span {
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color:#FFFFFF;
+	visibility:hidden;
+	
+}
+
+.imaglogo{
+	width: 155px;
+	height: 140px;
+}
+
+.imgg-o{
+	height: 103px;
+}
+
+
+/*************************SLIDER**********************************/
+
+#slider{
+	width: 1020px;
+	height: 400px;
+	clear: both;
+	overflow-x: scroll;
+	background-image: url(../Images/slider/slide3.png);
+}
+
+.slide {
+	float: left;
+	width: 1020px;
+	height: 400px;
+}
+
+.holder {
+	width: 400%;
+}
+
+#slide-0 {
+	background-image: url(../Images/slider/slide2.png);
+}
+
+#slide-1 {
+	background-image: url(../Images/slider/slide1.png);
+}
+
+
+/************************ENCAR***********************************/
+
+#encar{
+	font-size: 12px;
+	width: 310px;
+	height: 344px;
+	margin-right: 35px;
+	float: right;
+	margin-top: 27px;
+	background-color: #FFFFFF;
+	opacity: 0.90;
+	border-radius: 5px;
+
+}
+
+#presentation h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.titre_propos {
+    color:#32ab6b;
+	text-align: center;
+	font-weight: 700;
+	font-size: large;
+	padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+#encar p {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align:justify;
+	word-spacing:-1px;
+    font-weight: bolder;
+}
+
+#presentation{height: 290px;}
+
+#reseau{
+	float: right;
+	clear: both;
+	padding-bottom:0px;
+}
+
+#reseau img {
+	height:30px;
+	margin-bottom:10px;
+}
+
+#reseau span{
+	padding-left:4px;
+}
+	
+/*************************SLOGAN**********************************/
+
+#slogan {
+	width: 1020px;
+	clear: both;
+	background-color:#d3eddf;
+	margin-bottom:0px;
+}
+
+#slogan p,strong {
+	color: #32ab6b;
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+/*************************VALEURS**********************************/
+#valeurs {
+	clear: both;
+	width: 1020px;
+	height: 381px;
+	background-image:url(../Images/fond-curve-blc.png);
+	margin-top:0px;
+}
+#valeurs9 {
+	clear: both;
+	width: 1020px;
+	height: 381px;
+    background-color: #ffffff;
+	margin-top:0px;
+}
+
+.entete {
+	margin-top:15px;
+	font-weight: 600;
+	text-align:center;}
+
+.p1 {
+	font-size:12px;
+	text-align:center;
+}
+
+.p2 {
+	font-size:12px;
+	text-align:center;
+}
+
+.p3 {
+	font-size:12px;
+	text-align:center;
+}
+
+/**********/
+#valeur1 {
+	width: 310px;
+	height: 345px;
+	margin-top:0px;
+	float: left;
+	margin-left: 35px;
+	clear:both;
+	height: 250px;
+}
+
+#titre1 {
+	background-image:url(../Images/ECOLOGIQUE.png);
+	background-color: #59CE81;
+	float: left;
+	margin-left: 35px;
+	width:310px;
+	height:80px;
+}
+
+#eco {text-align:center;
+color:#FFFFFF;
+margin-top: 18px;
+font-size:22px;
+font-weight:500;
+}
+
+#pictoeco {
+	width: 80px;
+	height: 80px;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#pictoeco:hover {   
+    -webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+
+ 	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+/**********/
+#valeur2 {
+	width: 310px;
+	height: 345px;
+	float: left;
+	margin-left: 10px;	
+	margin-top:0px;
+	height: 250px;
+}
+
+#titre2 {
+	background-image: url(../Images/INTERNATIONNAL.png);
+	float: left;
+	margin-left: 10px;
+	margin-right:10px;
+	width: 310px;
+	height:80px;}
+
+#pictointer {
+	width: 80px;
+	margin-left: 110px;
+	margin-right: 110px;
+	height: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#pictointer:hover {   
+    -webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+
+ 	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+#inter { 
+	text-align:center;
+	color:#FFFFFF;
+	margin-top: 18px;
+	font-size:22px;
+	font-weight:500;
+}
+
+/**********/
+#valeur3 {
+	width: 310px;
+	height: 250px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+#titre3 {
+		background-image:url(../Images/HUMANITAIRE.png);
+		float: left;
+		margin-right: 35px;
+		width:310px;
+		height:80px; 
+}
+
+#hum {
+	text-align:center;
+	color:#FFFFFF;
+	margin-top: 18px;
+	font-size:22px;
+	font-weight:500;
+}
+
+#pictohum {
+	width: 80px;
+	height: 80px;
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/**********/
+#titre1 #titre2 #titre3 {
+	width:310px;
+	margin-top:0px;
+}
+
+#pictohum:hover {
+ -webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+
+ 	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+/************************NEWS***********************************/
+
+#news{
+	clear: both;
+	width: 1020px;
+	height: 363px;
+	background-color:#f2f2f2;
+}
+
+#trait {
+	height:1px;
+	width:175px;
+    padding-left: 420px;
+   
+}
+
+#titre4 p{
+	letter-spacing:1px;
+	margin-left:-5px;
+}
+
+h3 {
+	color:#32ab6b;
+	font-size: 24px;
+	text-align: center;
+    padding-top: 30px;
+	
+}	
+
+#actualite p {
+	font-size:18px;
+	color:#71b452;
+	margin-top:5px;
+    text-align: justify;
+    
+}
+
+
+#actu1 {
+	width: 460px;
+	height: 223px;
+	float: left;
+	margin-right: 35px;
+	margin-left: 15px;
+	background-image: url(../Images/terre.png);
+	background-repeat: no-repeat;
+	background-position: 0% 30%;
+	padding-top: 20px;
+}
+
+#actu2 {
+	width: 460px;
+	height: 223px;
+	float: left;
+	background-image: url(../Images/rushe.png);
+	background-repeat: no-repeat;
+	background-position: -15% 30%;
+	padding-top: 20px;
+	margin-left: 20px;
+	
+}
+
+#actu1 p {
+	font-size: 115%;
+	color: #828282;
+    
+}
+
+h4 {
+	color: #71b452;
+	font-size: 18px;
+    padding: 0px 0px 0px 30px;
+	
+	
+}
+
+#actu1 p, #actu1 h4 {
+	padding-left: 225px;	
+}
+#actu2 h4 {
+	padding-left: 210px;	
+}
+
+#actu2 p {
+	font-size: 115%;
+	color: #828282;
+	text-align: justify;
+	padding-left: 210px;
+}
+
+.suite {
+	float: right;
+	padding-top: 20px;
+	color: #32ab6b;
+	text-decoration: none;
+}
+.suite:hover {
+	text-decoration: underline;
+
+}
+
+.link {
+    text-decoration: none !important;
+}
+
+.link2 { 
+       color: #32ab6b;
+	font-size: 18px;
+    text-decoration: none;
+}
+
+/************************CONTACT***********************************/
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 200px 0px 50px 50px;
+    height: 500px; 
+}
+
+#formulaire {
+    float: left;
+    padding-right: 30px;
+       
+}
+
+#contact iframe {
+   float: left;
+}
+
+.contactez {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+    color: #32ab6b;
+    
+}
+
+#agence {
+ padding-top: 40px;   
+}
+
+.agence-adresse {
+    padding-bottom: 10px;
+    color: #32ab6b;
+    font-size: 16px;
+}
+
+/************************FOOTER***********************************/
+
+#footer{
+	width: 1020px;
+	height: 120px;
+	background-color:#333333;
+}
+#menu_footer {
+	float: left;
+	height: 90px;
+	width: 150px;
+	padding-top: 16px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	background-image: url(../Images/menu-footer.png);
+	background-repeat: no-repeat;
+	background-position: 18% 20px;
+}
+#menu_footer li, #menu_footer a {
+	height: 15px;
+	text-decoration: none;
+	
+}
+
+#menu_footer2 {
+	float: left;
+	height: 90px;
+	width: 150px;
+	padding-top: 16px;
+	padding-left: 30px;
+	background-image: url(../Images/menu-footer.png);
+	background-repeat: no-repeat;
+	background-position: 8% 80%;
+}
+
+#menu_footer2 li, #menu_footer2 a {
+	
+	height:15px;
+	text-decoration:none;
+}
+
+#newsletter {
+	float: left;
+	padding-top: 35px;
+	padding-left: 80px;
+	height: auto;
+	width: auto;
+}
+
+#facebook {
+	float: right;
+	padding-top: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#twitter {
+	float: right;
+	padding-top: 40px;
+	padding-right: 50px;
+	padding-left: 10px;
+}
+
+#menu_footer a:hover, #menu_footer2 a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+
+/*************************PROPOS**********************************/
+
+
+#propos{
+clear: both;
+width: 1020px;
+height: 381px;
+margin-top:0px;
+background-color: white;
+    text-align: justify;
+    }
+
+#qui_sommes_nous{
+width: 450px;
+height: 381px;
+margin-left: 30px;
+}
+
+#qui_sommes_nous h1{
+padding-bottom: 10px;
+color: #32ab6b;
+font-size: 24px;
+    padding-top: 5px;
+}
+
+#qui_sommes_nous p{
+font-size: 12px;
+}
+
+#demarche{
+margin-top: -200px;
+margin-left: 30px;
+}
+
+#propos h2{
+font-size: 18px;
+color: #71b452;
+}
+
+#demarche p{
+width: 450px;
+font-size: 12px;
+}
+#institution{
+margin-top: 15px;
+margin-left: 30px;
+}
+
+#institution p{
+width: 450px;
+font-size: 12px;
+}
+
+#que_faisons_nous{
+margin-top: 15px;
+margin-left: 30px;
+}
+
+#que_faisons_nous p{
+width: 450px;
+font-size: 12px;
+}
+
+#chiffres{
+margin-top: -1040px;
+margin-left: 420px;
+}
+
+#acteurs{
+margin-top: 15px;
+}
+
+/**************PAGE 404*****************/
+
+#erreur {
+	width:1020px;
+  	height:1300px;
+  	background-image:url(../Images/erreur.png);
+}
+
+/*************************PAGE NOS VALEURS (ECOLOGIE)**********************************/
+
+
+#ecologie{
+width: 1020px;
+height: 1450px;
+background-color: #f4f4f4;
+}
+
+.ecologia {
+    text-align: center;
+    padding-top: 220px;
+    color:whitesmoke;
+    padding-bottom: 60px;
+}
+
+#ecologie p{
+text-align: justify;
+    padding: 0px 30px 0px 30px;
+}
+
+#image img{
+padding:20px 0px 10px 70px;
+   
+}
+#ecologie{
+background-image: url(../Images/encar.png);
+    background-repeat: no-repeat;
+    
+}
+
+.sous-valeur {
+    padding: 0px 50px 0px 70px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+/*************************PAGE NOS VALEURS (INTERNATIONAL)**********************************/
+
+#international{
+width: 1020px;
+height: auto;
+background-color: #f4f4f4;
+    
+}
+
+#international p{
+padding: 0px 30px 0px 30px;
+    text-align: justify;
+}
+
+/*************************PAGE NOS VALEURS (HUMANITAIRE)**********************************/
+
+#humanitaire{
+width: 1020px;
+height: auto;
+background-color: #f4f4f4;
+
+}
+
+#humanitaire p{
+padding: 0px 30px 0px 30px;
+    text-align: justify;
+}
+
+#confiance {
+    background-color: white;
+    padding-left: 90px;
+    
+}
+
+.pays {
+    font-weight: bold;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.bouton {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 35px;
+    width: 280px;
+    border-radius: 4px;
+    margin-left: 15px;
+    
+}
+
+.bouton2 {
+    color: white;
+    background: #71b452;
+    font-size: 15px;
+    height: 35px;
+    width: 280px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.bouton3 {
+    color: white;
+    background: #a6a6a2;
+    font-size: 15px;
+    height: 35px;
+    width: 280px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.bouton4 {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    margin-left: 0px;
+}
+.bouton5 {
+    color: white;
+    background: #32ab6b;
+    font-size: 12px;
+    height: 20px;
+    width: 100px;
+    border-radius: 4px;
+    margin-left: 0px;
+    padding-top: 1px;
+}
+
+.titre_actus {
+    color:#32ab6b;
+	font-size: 24px;
+	text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.titre_actus:hover {
+    color:#32ab6b;
+	font-size: 24px;
+	text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+.bouton-int {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+#suiv-eco {
+    float: left;
+    padding-left: 30px;
+}
+
+#prec-eco {
+    float: right;
+    padding-right: 30px;
+}
+
+.bouton-hum {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+#page_valeurs {
+    height: 1520px;
+    background-color: #f4f4f4;
+}
+
+#page_valeurs3 {
+    height: 1730px;
+    background-color: #f4f4f4;
+    
+}
+#head {
+    height: 100px;
+    background-color: #f4f4f4
+    
+}
+
+.titre_bo {
+    font-size: 30px;
+    color: green;
+    padding-top: 30px;
+}
+
+.titre_valeur_inter {
+    font-size: 24px; 
+    padding-top: 230px; 
+    text-align: center; 
+    color: #ffffff; 
+    padding-bottom: 20px;
+    background-image: url(../Images/encar1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 75%;
+}
+.titre_valeur_hum {
+    font-size: 24px; 
+    padding-top: 240px; 
+    text-align: center; 
+    color: #ffffff; 
+    padding-bottom: 20px;
+    background-image: url(../Images/encar1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 75%;
+    
+}
+
+.backlink {
+    text-decoration: none;
+    
+}
+.backlink:hover {
+    text-decoration: underline;
+}
+

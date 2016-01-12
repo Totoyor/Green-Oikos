@@ -1,0 +1,711 @@
+body {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color:#FFFFFF;
+}
+
+#conteneur {
+	width: 1020px;
+	background-color: #ffffff;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+    height: auto;
+}
+
+/*********************HEADER**************************************/
+
+#logo {
+	width: 155px;
+	height: 140px;
+	float: left;
+	background-image: url(../Images/fondlogo.png);
+}
+
+#logo img {
+	height:120px;
+	width:120px;
+	margin-top:7px;
+	margin-left:35px;
+}			
+
+#g-o {
+	width: 865px;
+	height: 109px;
+	float: left;
+	background-image:url(../Images/fondg-o.jpg);
+}
+
+#g-o #h1 {
+	margin-top: 20px;
+	margin-bottom: -30px;
+	margin-left: 30px;
+	color: #FFFFFF;
+	font-size: 33px;
+	letter-spacing: 1px;
+	padding: 0px;
+	text-align: start;
+}
+
+#copy {
+	color:#FFFFFF;
+}
+	
+#g-o #h2 {
+	color: #293c32;
+	font-size: 20px;
+	margin-left: 33px;
+	font-style:italic;
+	margin-top: 20px;
+	font-weight:normal;  
+}
+
+/**************************MENUS*********************************/
+
+#menus {
+	height: 37px;
+	background-image: url(../Images/menu.jpg);
+	float: left;
+	color: #FFFFFF;
+}
+
+#nav {
+	height:21px;
+	text-align: center;
+	width: 865px;
+	padding-top: 7px;
+	padding-bottom:3px;
+	float: left;
+	background-image:url(../Images/menu.jpg);
+}
+
+
+#nav a {
+	font-size: 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+#nav a:hover {
+	border-bottom: 6px #31ab6a solid;
+	padding-bottom:1px;
+}
+
+#nav span {
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color:#FFFFFF;
+	visibility:hidden;
+}
+
+.imaglogo{
+	width: 155px;
+	height: 140px;
+}
+
+.imgg-o{
+	height: 103px;
+}	
+
+/*************************CONTENU CENTRAL**********************************/
+
+#contenu_central {
+	padding-bottom: 50px;
+	width:1020px;
+	background-color: #f4f4f4;
+}
+
+#entete img {
+	height: 150px;
+	width: 890px;
+	margin-left: 65px;
+	
+}
+
+#entete h4  {
+	padding-top: 170px;
+	text-align: center;
+	color: #32ab6b;
+	font-size: 24px;
+}
+
+#entete p {
+	
+	margin-top: 10px;
+	color: #71b452;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*************************CONTENU CENTRAL PROJET 1**********************************/
+
+
+#projet1 {
+	margin-left: 115px;
+	margin-top:70px;
+	height: 280px;
+	width: 786px;
+	border:1px #71b452 solid;
+	background-color: white;
+}
+
+#projet1 img {
+	margin-left:50px;
+	margin-top:50px;
+	height:	180px;
+	width: 180px;
+}
+
+#projet1 h2 {
+	margin-top:-185px;
+	margin-left: 260px;
+	font-size: 24px;
+	color: #71b452;
+    padding-bottom: 17px;
+}
+
+#projet1 p {
+	padding-left:300px;
+	margin-right: 50px;
+	margin-left: -40px;
+	text-align: justify;
+}
+
+
+
+#projet1_fleche  img{
+	margin-left:330px;
+	float:left;
+	height:18px;
+	width:18px;
+	margin-top:-16px;
+}
+
+.categorie1 {
+	float:left;
+	margin-top: 30px;
+}
+
+
+
+/*************************CONTENU CENTRAL PROJET 2**********************************/
+
+#projet2 {
+	margin-left: 115px;
+	margin-top:70px;
+	height: 280px;
+	width: 786px;
+	border:1px #71b452 solid;
+	background-color: white;
+}
+
+#projet2 img {
+	margin-left:50px;
+	margin-top:50px;
+	height:	180px;
+	width: 180px;
+}
+
+#projet2 h2 {
+	margin-top:-185px;
+	margin-left: 260px;
+	font-size: 24px;
+	color: #71b452;
+    padding-bottom: 27px;
+}
+
+#projet2 p {
+	padding-left:300px;
+	margin-right: 50px;
+	margin-left: -40px;
+	text-align: justify;
+}
+
+
+#projet2_fleche img{
+	margin-left:330px;
+	float:left;
+	height:18px;
+	width:18px;
+	margin-top:-16px;
+
+}
+
+.categorie2 {
+	float:left;
+	margin-top: 40px;
+}
+			/*************************CONTENU CENTRAL PROJET 3**********************************/
+
+
+#projet3 {
+	margin-left: 115px;
+	margin-top:70px;
+	height: 280px;
+	width: 786px;
+	border:1px #71b452 solid;
+	background-color: white;
+}
+
+#projet3 img {
+	margin-left:50px;
+	margin-top:50px;
+	height:	180px;
+	width: 180px;
+}
+
+#projet3 h2 {
+	margin-top:-185px;
+	margin-left: 260px;
+	font-size: 24px;
+	color: #71b452;
+    padding-bottom: 19px;
+}
+
+#projet3 p {
+	padding-left:300px;
+	margin-right: 50px;
+	margin-left: -40px;
+	text-align: justify;
+}
+
+#projet3_fleche img {
+	margin-left:330px;
+	float:left;
+	height:18px;
+	width:18px;
+	margin-top:-16px;
+}
+
+.categorie3 {
+	float:right;
+	margin-top: 30px;
+} 
+/*************************Projets**********************************/
+  
+  #contenu {
+  	width:1020px;
+  	padding-bottom: 30px;
+  	background-color: #F4F4F4;
+      height: 1030px;
+  }
+#contenu2 {
+  	width:1020px;
+  	padding-bottom: 30px;
+  	background-color: #F4F4F4;
+      height: 880px;
+  }
+
+  #titre {
+  	margin:auto;
+  	width:600px;
+  	height:250px;
+  }
+
+  #titre h1 {
+  	padding-top:165px;
+  	color:#32ab6b;
+  	font-size: 28px;
+  	font-family: "avenir next";
+      text-align: center;
+    
+  }
+
+  #titre p { 
+  	font-size: 18px;
+  	color:#71b452;
+      text-align: center;
+  }
+
+  #contenu_centre { 
+  	width:786px;
+  	background-color:white;
+  	margin:auto;
+  	border:1px #71b452 solid ;
+
+  }
+
+  hr {
+  	margin-top:5px;
+  	width: 250px;
+  	height:1px;
+  	color: black;
+  }
+
+  #contenu h1, #contenu p {
+  	text-align: center;
+
+  }
+
+  #contenu_centre p {
+  	width:584px;
+  	text-align: justify;
+  	padding-left:100px;
+  	padding-right:100px;
+  	font-size:12px;
+  	padding-bottom: 20px;
+  	
+
+  }
+
+
+  #titre2 {
+  	margin:auto;
+  	width:600px;
+  	height:100px;
+ 
+  }
+
+    #titre2 h2 {
+  	padding-top:30px;
+  	color:#71b452;
+  	font-size: 30px;
+  	font-family: "avenir next";
+  	margin:auto;
+  	text-align:center;
+  }
+
+
+
+#contenu_centre img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:700px;
+	height:146px;
+
+}
+
+/************************PAGE PARTICIPER************************/
+
+#page_paticiper {
+	margin-right: auto;
+	margin-left: auto;
+    background-color: #ffffff;
+    clear: both;
+    height: 1097px;
+}
+
+
+#entete_participer {
+	clear: both;
+	height: 71px;
+	width: 529px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#entete_participer h1 {
+	color: #32ab6b;
+	text-align: center;
+	line-height: 70px;
+    font-size: 24px;
+}
+
+#contenu_participer h2 {
+	margin-top: 30px;
+	color: #71b452;
+     padding: 0px 30px 10px 30px;
+    font-size: 18px;
+}
+
+#contenu_participer p {
+	margin-top: 10px;
+	text-align: justify;
+    padding: 0px 30px 0px 30px;
+}
+
+
+/************************FORMULARIRE ************************/
+
+#formulaire2 {
+	height: 350px;
+	margin-top: 50px;
+	width:600px;
+}
+#formulaire3 {
+	height: 350px;
+	margin-top: 50px;
+	width:600px;
+}
+#formulaires {
+	height: 350px;
+	margin-top: 50px;
+	width:600px;
+}
+
+
+#formulaire p {
+	text-align: justify;
+}
+
+#faite_dons {
+	background-repeat: no-repeat;
+	background-image: url(../Images/formulaire.png);
+	height: 430px;
+	width: 350px;
+	margin-top: -920px;
+	margin-left: 670px;
+}
+
+#faite_dons h2 {
+	margin-top: 550px;
+}
+
+#titre_dons h2 {
+	font-size: 14px;
+    padding-top: 35px;
+    text-align: center;
+	color: white;
+}
+
+/************************FORMULAIRE CANDIDATURE************************/
+
+#contact {
+	margin-top: -50px;
+	margin-left: 60px;
+}
+
+textarea {
+	resize:none;
+	width: 225px;
+	height: 100px;
+
+}
+
+/************************FORMULAIRE DONS************************/
+
+#bandeau_dons {
+	margin-top: 40px;
+	float: right;
+	height: 90px;
+	width: 1020px;
+ 	background-image: url(../Images/bandeau_dons.png);
+
+}
+
+
+#texte_dons h2{
+	margin-top: 40px;
+	margin-left: 350px;
+	color: white;
+	font-size: 18px;
+}
+
+#formulaire_dons {
+	margin-left:50px;
+}
+
+#formulaire_dons label {
+	color:#51b881;
+}
+
+#dons_libre1 {
+
+	margin-top: -350px;
+	margin-left: 400px;
+}
+
+#dons_libre1 label {
+	 color:#51b881;
+}
+
+#dons_libre1 p {
+	font-size: 24px;
+	color:#51b881;
+	line-height: 70px;
+	margin-top: -200px;
+}
+
+#dons_libre2 {
+	color: #51b881;
+	margin-top: -17px;
+	margin-left: 500px;
+}
+
+#dons_libre2 label {
+	 color:#51b881;
+}
+
+#dons_libre3 {
+
+	margin-top: -19px;
+	margin-left: 600px;
+}
+
+#dons_libre3 label {
+	 color:#51b881;
+}
+
+#dons_libre4 {
+
+	margin-top: -17px;
+	margin-left: 700px;
+}
+
+#dons_libre4 label {
+	 color:#51b881;
+}
+
+#champ_dons {
+	margin-top: 30px;
+	margin-left: 400px;
+}
+
+#bouton_envoi {
+	margin-top: 50px;
+	margin-left: 450px;
+	height: 50px;
+	width: 200px;	
+}
+
+#bouton_envoi a {
+	line-height: 40px;
+	text-decoration: none;
+	margin-left: 33px;
+	color: white;
+}
+
+#barre_style{
+	margin-top: 20px;
+	float: right;
+	height: 20px;
+	width: 1020px;
+	background-image: url(../Images/bandeau_dons2.png);
+}
+
+/************************FOOTER PROJET ***********************************/
+
+#footer{
+	width: 1020px;
+	height: 120px;
+	background-color:#333333;
+}
+#menu_footer {
+	float: left;
+	height: 90px;
+	width: 150px;
+	padding-top: 16px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	background-image: url(../Images/menu-footer.png);
+	background-repeat: no-repeat;
+	background-position: 18% 20px;
+}
+#menu_footer li, #menu_footer a {
+	height: 15px;
+	text-decoration: none;
+	
+}
+
+#menu_footer2 {
+	float: left;
+	height: 90px;
+	width: 150px;
+	padding-top: 16px;
+	padding-left: 30px;
+	background-image: url(../Images/menu-footer.png);
+	background-repeat: no-repeat;
+	background-position: 8% 80%;
+}
+
+#menu_footer2 li, #menu_footer2 a {
+	
+	height:15px;
+	text-decoration:none;
+}
+
+#newsletter {
+	float: left;
+	padding-top: 35px;
+	padding-left: 80px;
+	height: auto;
+	width: auto;
+}
+
+#facebook {
+	float: right;
+	padding-top: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#twitter {
+	float: right;
+	padding-top: 40px;
+	padding-right: 50px;
+	padding-left: 10px;
+}
+
+#menu_footer a:hover, #menu_footer2 a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+
+.bouton {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+    margin-left: 0px;
+    
+}
+
+.bouton4 {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    margin-left: 0px;
+    float: right;
+    margin-top: 25px;
+}
+
+#suiv-eco {
+    float: left;
+    padding-left: 30px;
+}
+
+#prec-eco {
+    float: right;
+    padding-right: 30px;
+}
+
+.bouton-int {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.bouton-hum {
+    color: white;
+    background: #32ab6b;
+    font-size: 15px;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.bouton5 {
+    color: white;
+    background: #32ab6b;
+    font-size: 12px;
+    height: 20px;
+    width: 100px;
+    border-radius: 4px;
+    margin-left: 0px;
+    padding-top: 1px;
+}
