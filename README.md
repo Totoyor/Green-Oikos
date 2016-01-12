@@ -28,7 +28,7 @@ $ git clone https://github.com/Totoyor/Green-Oikos.git
 
 ### Développement
 
-* ([Thomas Vanwelden](https://github.com/Totoyor))
+* [Thomas Vanwelden](https://github.com/Totoyor)
 * Nicolas Mimault
 
 
