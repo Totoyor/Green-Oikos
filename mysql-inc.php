@@ -1,6 +1,8 @@
 <?php
-$c = mysql_connect("localhost", "vanwelde", "282814"); 
-//$c = mysql_connect("localhost", "root", ""); pour serveur local
+ini_set("display_errors",0);error_reporting(0);
+
+$c = mysql_connect("localhost", "root", "root");
+
 if (!$c)
     die("Problème = ".mysql_error());
 else

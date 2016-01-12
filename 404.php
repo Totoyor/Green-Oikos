@@ -7,7 +7,6 @@
 <meta name="keywords" content="maison, environnement, écologique, nature, recyclage, matériaux, autonome, durable" />
 <link href="styles/meyer.css" rel="stylesheet" type="text/css" />
 <link href="styles/styleGO.css" rel="stylesheet" type="text/css" />
-
 </head>
 <body>
 
@@ -16,14 +15,9 @@
     <?php
 include("header.inc.php");
 ?>
-    
-    
     	<div id="erreur">
-
-  
       
 		<!--erreur 404--></div>
-
 
         <?php
 include("footer.inc.php");
